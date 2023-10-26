@@ -1,0 +1,16 @@
+{
+    "name": "pkg",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "db:migrations:generate":"drizzle-kit generate:pg"
+    },
+    "dependencies": {
+      "dotenv": "^8.2.0",
+      "drizzle-kit": "^0.19.13",
+      "drizzle-orm": "^0.28.6",
+      "pg": "^8.11.3"
+    }
+  }
+  
